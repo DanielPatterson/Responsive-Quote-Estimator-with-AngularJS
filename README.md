@@ -1,7 +1,7 @@
 # Responsive-Quote-Estimator-with-AngularJS
 Responsive Quote Estimator with AngularJS
 
-#### controller.js
+#### OrderFormController.js
 
 ```js
 function OrderFormController($scope){
