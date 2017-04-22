@@ -2,6 +2,7 @@
 Responsive Quote Estimator with AngularJS
 
 #### controller.js
+
 ```js
 function OrderFormController($scope){
 
