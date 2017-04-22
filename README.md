@@ -1,7 +1,18 @@
 # Responsive-Quote-Estimator-with-AngularJS
 Responsive Quote Estimator with AngularJS
 
+#### HTML
+```html
+<form id="quote">
+            	
+    <button ng-repeat="service in items" ng-click="toggleActive(service)" ng-class="{active:service.active}">
+    <span class="name">{{service.name}}</span>
+    <span class="price">${{service.price}}</span><br />
+    <span class="desc">{{service.desc}}</span>
+    </button>
 
+</form>
+```
 #### controller.js
 ```js
 function OrderFormController($scope){
@@ -78,3 +89,4 @@ function OrderFormController($scope){
 
 	
 }
+```
